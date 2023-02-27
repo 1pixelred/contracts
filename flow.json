@@ -1,0 +1,32 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "contracts": {
+    "Pixel": "./Pixel.cdc"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "8c2acc9b6dd1c6da3fe27ff694e366d1848c05ae22d2dd440af696b8a81000a4"
+    },
+    "testnet-account": {
+      "address": "0x60fb6829e09510da",
+      "key": {
+        "type": "hex",
+        "index": 0,
+        "signatureAlgorithm": "ECDSA_P256",
+        "hashAlgorithm": "SHA3_256",
+        "privateKey": "58ac40e762793c9d4b07d86f03e2bb495b52b44f8628cd56033827675958c922"
+      }
+    }
+  },
+  "deployments": {
+    "testnet": {
+      "testnet-account": ["Pixel"]
+    }
+  }
+}
