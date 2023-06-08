@@ -1,4 +1,5 @@
 // Pixel.cdc
+// 1PIXEL RED is a unique NFT game based on the Flow blockchain.
 //
 pub contract Pixel {
 
